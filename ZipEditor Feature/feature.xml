@@ -17,12 +17,16 @@
       %license
    </license>
 
-   <url>
-      <update label="%updateSiteName" url="http://zipeditor.sourceforge.net/update"/>
-   </url>
-
    <plugin
          id="ZipEditor"
+         version="0.0.0"/>
+
+   <plugin
+         id="io.airlift.aircompressor"
+         version="0.0.0"/>
+
+   <plugin
+         id="com.github.luben.zstd-jni"
          version="0.0.0"/>
 
 </feature>
